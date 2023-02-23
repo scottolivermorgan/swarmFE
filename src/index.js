@@ -5,7 +5,7 @@ import Landing from "./Components/Landing";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import NoPage from "./Components/NoPage";
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (
