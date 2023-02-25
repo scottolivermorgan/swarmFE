@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout";
-import Landing from "./Components/Landing";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import NoPage from "./Components/NoPage";
+import Landing from "./Components/Landing/Landing";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import NoPage from "./Components/NoPage/NoPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
