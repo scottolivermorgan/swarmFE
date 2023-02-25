@@ -22,8 +22,8 @@ function Landing() {
                 <Link to='/blog'> 
                     <button className="main-btn">Blog</button>
                 </Link>
-                <Link to=''> 
-                    <button className="main-btn">something</button>
+                <Link to='/research'> 
+                    <button className="main-btn">Research</button>
                 </Link>
             </div>
 
