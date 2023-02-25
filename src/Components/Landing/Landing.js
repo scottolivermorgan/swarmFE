@@ -1,8 +1,6 @@
 import React from 'react';
-//import Button from 'react-bootstrap/Button';
 import logo from '../../images/logo.png';
 import "./Landing.css";
-//import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 console.log(logo)

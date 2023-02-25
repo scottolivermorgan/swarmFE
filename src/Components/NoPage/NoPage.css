@@ -1,0 +1,20 @@
+.logo-box-sm {
+  padding-top: 1%;
+  padding-left:1%
+}
+
+.App-logo-sm {
+  width: 192px;
+  height:148px;
+}
+.blurb-box {
+  padding-left:20% ; 
+  padding-right: 20%;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+.title {
+  padding-top:10%;
+  font-size: 18px;
+  font-family: Helvetica;
+}
