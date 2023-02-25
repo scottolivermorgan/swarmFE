@@ -8,7 +8,6 @@ function Contact() {
 		<div className="logo-box-sm">
         <img src = {logo} className="App-logo-sm" alt="logo"></img>
         </div>
-		<br></br>
 		<center className="blurb-box">
 		<div className="title"> <b>Contact us</b></div>		
 	    <div>

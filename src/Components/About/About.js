@@ -9,7 +9,6 @@ function About() {
 		<div className="logo-box-sm">
         <img src = {logo} className="App-logo-sm" alt="logo"></img>
         </div>
-		<br></br>
 		<center className="blurb-box">
 		<div className="title"> <b>About us</b></div>		
 	    <div>
