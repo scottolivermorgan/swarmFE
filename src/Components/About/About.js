@@ -103,8 +103,7 @@ function About() {
         					</Typography>
         					<Typography variant="body2" color="text.secondary">
 								<center>
-
-								Passionate outdoorsman, forager and spear fisherman.
+								Tenacious outdoorsman, forager and spear fisherman.
 								</center>
         					</Typography>
 							<center>
