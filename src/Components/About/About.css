@@ -17,3 +17,29 @@
     font-size: 18px;
     font-family: Helvetica;
 }
+
+.img-1 {
+    width: 100px;
+    height: 100px;
+}
+.img-2 {
+    width: 116px;
+    height: 104px;
+}
+
+.img-3 {
+    width: 100px;
+    height: 100px;
+}
+.img-4 {
+    width: 100px;
+    height: 100px;
+}
+.titles {
+    font-size: 8px;
+    font-family: Helvetica
+}
+.role {
+    font-size: 12px;
+    font-family: Helvetica
+}
