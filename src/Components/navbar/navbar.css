@@ -1,0 +1,21 @@
+.logo-box-sm{
+    padding-left: 10px;
+}
+.nav-btn {
+    width: 100px;
+    display:inline-block; 
+    background-color:#FFFFFF;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:Helvetica;
+    font-weight:500;
+    font-size: 14px;
+    color: #382e2c;
+    text-align:center;
+    transition: all 0.2s;
+}
+.nav-btn:hover{
+    color:#FFFFFF;
+    background-color:#382e2c;
+    border:0.1em solid #FFFFFF
+  }
