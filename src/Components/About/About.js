@@ -15,6 +15,7 @@ import { CardActionArea } from '@mui/material';
 
 
 function About() {
+	const BASE_URL = process.env.REACT_BASE_APP_URL;
     return(
         <>
 		<table>
