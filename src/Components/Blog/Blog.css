@@ -1,4 +1,4 @@
-.logo-box-sm {
+/*.logo-box-sm {
     padding-top: 1%;
     padding-left:1%
   }
@@ -15,5 +15,16 @@
 }
 .title {
     font-size: 18px;
+    font-family: Helvetica;
+}
+*/
+.blurb-box {
+    padding-left:20% ; 
+    padding-right: 20%;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+.about-us {
+    font-size: 14px;
     font-family: Helvetica;
 }
