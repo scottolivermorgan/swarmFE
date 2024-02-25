@@ -10,13 +10,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import '../navbar/navbar.css'
+import SideNav from '../navbar/navbar.js';
 
 function Research() {
     return(
         <>
-		<div className="logo-box-sm">
-        <img src = {logo} className="App-logo-sm" alt="logo"></img>
-        </div>
+		<table>
+			<th>
+				{SideNav()}
+			</th>
 		<center className="blurb-box">
 		<div className="title"> <b>Research</b></div>		
 	    <Card sx={{ maxWidth: 1145 }}>
@@ -132,6 +135,7 @@ function Research() {
                     <button className = "main-btn">Home</button>
                 </Link>
 		</center>
+		</table>
         </>
     )
 }

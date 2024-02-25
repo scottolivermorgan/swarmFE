@@ -15,6 +15,13 @@ const SideNav = (props) => {
                 <table>
                     <tr>
                         <center>
+                        <Link to='/'> 
+                            <button className = "nav-btn">Home</button>
+                        </Link>
+                        </center>
+                    </tr>
+                    <tr>
+                        <center>
                         <Link to='/about'> 
                             <button className = "nav-btn">About</button>
                         </Link>

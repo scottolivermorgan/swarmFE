@@ -35,10 +35,11 @@ import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
-//import React from 'react';
 import logo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
 import './Contact.css'
+import '../navbar/navbar.css'
+import SideNav from '../navbar/navbar.js';
 
 const styles = {
     contactForm: {
@@ -103,9 +104,10 @@ export class ContactForm extends Component {
         const { userName, email, message } = this.state;
         return (
 			<>
-		<div className="logo-box-sm">
-        <img src = {logo} className="App-logo-sm" alt="logo"></img>
-       </div>
+			<table>
+			<th>
+				{SideNav()}
+			</th>
 		<center className="blurb-box">
 		<div className="title"> <b>Contact us</b></div>		
 	    <div></div>
@@ -192,6 +194,7 @@ export class ContactForm extends Component {
                    <button className = "main-btn">Home</button>
                </Link>
 		</center>
+		</table>
        </>
                       
         );
